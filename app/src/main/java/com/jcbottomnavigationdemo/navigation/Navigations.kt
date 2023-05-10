@@ -5,7 +5,7 @@ import androidx.navigation.compose.composable
 import com.jcbottomnavigationdemo.navigation.NavigationItem
 
 @Composable
-fun Navigation(
+fun Navigations(
     navController: NavHostController
 ) {
     NavHost(navController, startDestination = NavigationItem.Home.route) {

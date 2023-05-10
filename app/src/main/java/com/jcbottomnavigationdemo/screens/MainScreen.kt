@@ -20,15 +20,12 @@ fun MainScreen(
 ) {
     Scaffold(
         bottomBar = {
-            BottomAppBar(
-                modifier = Modifier
-            ) {
+            BottomAppBar(modifier = Modifier) {
                 BottomNavigationBar(navController = navController)
             }
         },
         floatingActionButton = {
-            FloatingActionButton(onClick = {
-            }) {
+            FloatingActionButton(onClick = {}) {
                 Icon(Icons.Filled.Add, "Add")
             }
         }
@@ -43,9 +40,7 @@ fun MainScreen(
                 )
             )
         ) {
-            Navigation(
-                navController = navController
-            )
+            Navigations(navController = navController)
         }
     }
 }
