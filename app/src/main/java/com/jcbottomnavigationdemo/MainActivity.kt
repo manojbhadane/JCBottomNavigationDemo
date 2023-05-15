@@ -14,7 +14,6 @@ import androidx.navigation.compose.rememberNavController
 import com.jcbottomnavigationdemo.ui.theme.JCBottomNavigationDemoTheme
 
 class MainActivity : ComponentActivity() {
-    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
